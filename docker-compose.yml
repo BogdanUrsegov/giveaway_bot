@@ -1,0 +1,12 @@
+services:
+  bot:
+    build: .
+    container_name: giveaway-bot
+    env_file:
+      - .env
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: /app
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

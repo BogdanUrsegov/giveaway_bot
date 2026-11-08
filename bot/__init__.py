@@ -1,0 +1,1 @@
+"""Giveaway bot application package."""
