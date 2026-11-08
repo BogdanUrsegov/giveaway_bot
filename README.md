@@ -1,5 +1,6 @@
 # Giveaway Bot
 
+<<<<<<< HEAD
 Telegram giveaway bot built with **Python 3.10**, **aiogram 3**, **SQLite/aiosqlite** and **Docker Compose**. The structure follows the modular layout used in `BogdanUrsegov/samb`: `bot/handlers`, `bot/database`, `bot/services`, `bot/states.py`, `bot/keyboards.py`, with the entry point `python -m bot.main`.
 
 ## Included in this MVP
@@ -103,3 +104,8 @@ python -m unittest discover -s tests -v
 - One bot process should run against the SQLite database; do not start multiple replicas.
 - Admin cancellation/refund UI, multi-admin roles and CSV export are not included yet.
 - The legal terms page is external and must be supplied by the operator before paid mode is enabled.
+=======
+Source package: download `giveaway_bot.tar.xz`, extract it, and follow `giveaway_bot/README.md` for setup and deployment.
+
+The archive contains the complete Python 3.10 + aiogram 3 + SQLite + Docker Compose project. Paid chance-based draws are disabled by default and must not be enabled until the operator has verified Telegram platform eligibility and applicable law. See the detailed README inside the archive.
+>>>>>>> efc020fcf7562448d2f343beb3d15d4975b35873
